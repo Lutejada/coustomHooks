@@ -19,6 +19,7 @@ export const SimpleForm = () => {
         });
     }
 
+    // Se recomienda tener los efectos por separado
 
     useEffect( () => {
         // console.log('useEffect called!');
@@ -32,7 +33,7 @@ export const SimpleForm = () => {
         // console.log('email changed!');
     }, [ email ]);
 
-    
+        
 
     return (
         <>
